@@ -32,7 +32,7 @@ export default function Skills() {
                                 animate={controls}
                                 transition={{ duration: 1 }}
                             >
-                                <div class="rounded-full bg-white bg-opacity-20 backdrop-blur-md  w-20 h-20 p-4 flex items-center justify-center ">
+                                <div class="rounded-full shadow-md shadow-cyan-500/50 bg-white bg-opacity-20 backdrop-blur-md  w-20 h-20 p-4 flex items-center justify-center ">
                                     <img src={skill.imageSrc} alt={skill.title} />
                                 </div>
                                 <h3 className="text-white text-center font-semibold mt-2">{skill.title}</h3>

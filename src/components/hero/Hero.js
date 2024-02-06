@@ -37,11 +37,7 @@ const highlights = [
 
 
 const socials = [
-    {
-        url: "https://www.facebook.com/",
-        icon: <FontAwesomeIcon class="w-12 p-2 hover:text-[#166fe5] transition ease-in-out duration-500 " icon={faFacebook} />,
 
-    },
     {
         url: "https://www.linkedin.com/in/archit-gupta-080aa1249/",
         icon: <FontAwesomeIcon class="rounded-xl w-12 p-2.5 hover:text-[#0077b5] transition ease-in-out duration-500" icon={faLinkedin} />,
@@ -53,7 +49,7 @@ const socials = [
 
     },
     {
-        url: "https://discord.com/",
+        url: "https://discord.com/channels/archit0304",
         icon: <FontAwesomeIcon class="w-12 p-2 hover:text-[#5865F2] transition ease-in-out duration-500" icon={faDiscord} />,
     },
 

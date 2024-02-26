@@ -7,6 +7,7 @@ import { faDiscord } from '@fortawesome/free-brands-svg-icons'
 import { faLinkedin } from '@fortawesome/free-brands-svg-icons'
 import { faQuoteLeft } from '@fortawesome/free-solid-svg-icons'
 import { faQuoteRight } from '@fortawesome/free-solid-svg-icons'
+import { faCode } from '@fortawesome/free-solid-svg-icons'
 import { TypeAnimation } from "react-type-animation"
 // import NET from 'vanta/dist/vanta.net.min'
 
@@ -42,6 +43,10 @@ const socials = [
         url: "https://www.linkedin.com/in/archit-gupta-080aa1249/",
         icon: <FontAwesomeIcon class="rounded-xl w-12 p-2.5 hover:text-[#0077b5] transition ease-in-out duration-500" icon={faLinkedin} />,
 
+    },
+    {
+        url: "https://leetcode.com/archit01/",
+        icon: <FontAwesomeIcon class="w-12 p-2 hover:text-[#5865F2] transition ease-in-out duration-500" icon={faCode} />,
     },
     {
         url: "https://github.com/architg-5501",

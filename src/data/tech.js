@@ -1,5 +1,17 @@
 const tech = [
     {
+        "title": "C++",
+        "imageSrc": "/cpp.png"
+    },
+    {
+        "title": "Java",
+        "imageSrc": "/java.png"
+    },
+    {
+        "title": "Python",
+        "imageSrc": "/python.png"
+    },
+    {
         "title": "HTML",
         "imageSrc": "/html.png"
     },
@@ -8,12 +20,8 @@ const tech = [
         "imageSrc": "/css.png"
     },
     {
-        "title": "C++",
-        "imageSrc": "/cpp.png"
-    },
-    {
-        "title": "Python",
-        "imageSrc": "/python.png"
+        "title": "Javascript",
+        "imageSrc": "/javascript.png"
     },
     {
         "title": "Node js",
